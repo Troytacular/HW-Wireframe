@@ -1,7 +1,77 @@
+/* Body */
+body {
+    font-family: arial;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+}
+/* Header */
 #hotdog {
-    width: 1520px;
+    width: 1000px;
     height: 100px;
     color: black;
     background: #ebebeb;
-
+    margin-left: 250px;
+    margin-right: 300px;
 }
+/* Nav */
+#hamburger {
+    width: 1000px;
+    height: 100px;
+    color: black;
+    background: #ebebeb;
+    margin-left: 250px;
+    margin-right: 300px;
+    margin-top: 15px;
+}
+/* Section */
+#carrot {
+    height: 300px;
+    width: 495px;
+    background: #ebebeb; 
+    margin-top: 15px;
+    margin-left: 250px;
+    color: black
+}
+/* Article */
+#broccoli {
+    height: 200px;
+    width: 465px;
+    color: #ebebeb;
+    background: #777;
+    margin-left: 15px;
+    margin-top: 65px;
+}
+/* box for h1,h2,h3 */
+#pizza {
+    height: 50px;
+    width: 435px;
+    color: #777;
+    background: #ebebeb;
+    margin-left: 15px;
+    margin-top: 55px;
+}
+/* to make h1,h2,h3 apear in same line */
+#peanut {
+    display: inline;
+}
+/* box for p */
+#donut {
+    height: 50px;
+    width: 435px;
+    color: #777;
+    background: #ebebeb;
+    margin-left: 15px;
+    margin-top: -5px;
+}
+/* box for aside */
+#corn {
+    float: right;
+    clear: both;
+    height: 300px;
+    width: 490px;
+    margin-right: -290px;
+    margin-top: -300px;
+    background: #ebebeb;
+/* used same id as header for footer (#hamburger) */
